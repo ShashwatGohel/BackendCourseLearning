@@ -45,7 +45,6 @@ app.delete('/tasks/:id',(req,res)=>{
 });
 // Updating a Task
 app.put('/tasks/:id',(req,res)=>{
-    // const updatedTasks = tasks.filter(tasks=> tasks.id != req.params.id)
     res.send("Tasks Updated")
 });
 app.listen(3000, () => {
