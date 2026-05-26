@@ -44,9 +44,9 @@ Folder Structure ⭐
 project/
 │
 ├── routes/
-│    └── userRoutes.js
+│ └── userRoutes.js
 │
 ├── controllers/
-│    └── userController.js
+│ └── userController.js
 │
 └── app.js
