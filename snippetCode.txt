@@ -19,6 +19,7 @@
 		],
 		"description": "Express backend server template"
 	},
+
 	"Express Router": {
 		"prefix": "exprouter",
 		"body": [
@@ -33,6 +34,7 @@
 		],
 		"description": "Express router template"
 	},
+
 	"Express Controller": {
 		"prefix": "expcontroller",
 		"body": [
@@ -47,5 +49,81 @@
 			"};"
 		],
 		"description": "Simple Express controller template"
+	},
+
+	"Read File Async": {
+		"prefix": "readfile",
+		"body": [
+			"const fs = require('fs');",
+			"",
+			"fs.readFile('$1', 'utf-8', (err, data) => {",
+			"",
+			"    if(err){",
+			"        console.log(err);",
+			"        return;",
+			"    }",
+			"",
+			"    console.log(data);",
+			"",
+			"});"
+		],
+		"description": "Read file asynchronously"
+	},
+
+	"Write File Async": {
+		"prefix": "writefile",
+		"body": [
+			"const fs = require('fs');",
+			"",
+			"fs.writeFile('$1', '$2', (err) => {",
+			"",
+			"    if(err){",
+			"        console.log(err);",
+			"        return;",
+			"    }",
+			"",
+			"    console.log('File written successfully');",
+			"",
+			"});"
+		],
+		"description": "Write file asynchronously"
+	},
+
+	"Append File Async": {
+		"prefix": "appendfile",
+		"body": [
+			"const fs = require('fs');",
+			"",
+			"fs.appendFile('$1', '$2', (err) => {",
+			"",
+			"    if(err){",
+			"        console.log(err);",
+			"        return;",
+			"    }",
+			"",
+			"    console.log('Data appended successfully');",
+			"",
+			"});"
+		],
+		"description": "Append data to file asynchronously"
+	},
+
+	"Delete File Async": {
+		"prefix": "deletefile",
+		"body": [
+			"const fs = require('fs');",
+			"",
+			"fs.unlink('$1', (err) => {",
+			"",
+			"    if(err){",
+			"        console.log(err);",
+			"        return;",
+			"    }",
+			"",
+			"    console.log('File deleted successfully');",
+			"",
+			"});"
+		],
+		"description": "Delete file asynchronously"
 	}
 }
