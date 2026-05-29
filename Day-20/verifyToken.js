@@ -1,0 +1,5 @@
+const jwt = require("jsonwebtoken")
+const token  =  jwt.sign({id:"12345"},"secretkey")
+console.log(token)
+const decodedToken = jwt.verify(token, "secretkey")
+console.log(decodedToken)
