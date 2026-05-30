@@ -60,6 +60,10 @@ Note: There is no `Day-2` folder currently (I continued from `Day-1` to `Day-3`)
 | Day 24 | File uploads with Multer (single file upload) | [Day-24](Day-24) |
 | Day 25 | Filtering + Search + Pagination (Express + Mongoose) | [Day-25](Day-25) |
 | Day 26 | BackEnd Project Structure | [Day-26](Day-26) |
+| Day 27 | Roles in Schema & Role-based Authorization | [Day-27](Day-27) |
+| Day 28 | Global Error Handling & HTTP Status Codes | [Day-28](Day-28 |
+| Day 29 |  | [Day-29](Day-29 |
+| Day 30 |  | [Day-30](Day-30|
 
 ---
 
