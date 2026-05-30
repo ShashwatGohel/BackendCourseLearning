@@ -58,7 +58,8 @@ Note: There is no `Day-2` folder currently (I continued from `Day-1` to `Day-3`)
 | Day 22 | Full auth flow (signup/login + DB integration) | [Day-22](Day-22) |
 | Day 23 | Complete authentication API (Express + Mongoose + bcrypt + JWT) | [Day-23](Day-23) |
 | Day 24 | File uploads with Multer (single file upload) | [Day-24](Day-24) |
-| Day 25 | Placeholder for upcoming practice | [Day-25](Day-25) |
+| Day 25 | Filtering + Search + Pagination (Express + Mongoose) | [Day-25](Day-25) |
+| Day 26 | BackEnd Project Structure | [Day-26](Day-26) |
 
 ---
 
